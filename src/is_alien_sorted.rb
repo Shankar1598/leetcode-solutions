@@ -30,6 +30,11 @@
 
 # Difficulty: Easy
 
+# Result (need to improve):
+
+# Runtime: 108 ms, faster than 5.13% of Ruby online submissions for Verifying an Alien Dictionary.
+# Memory Usage: 210.3 MB, less than 6.67% of Ruby online submissions for Verifying an Alien Dictionary.
+
 def is_alien_sorted words, order
   order_hash = order.split('').each_with_index.reduce({}) do |order_hash, (letter, index)|
     order_hash.merge!({
